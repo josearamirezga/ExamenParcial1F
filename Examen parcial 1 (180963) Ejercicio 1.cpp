@@ -1,4 +1,4 @@
-// Programa que imprime 10 números, a partir del número que se le otorga (En orden positivo).
+// Programa que imprime 10 nÃºmeros, a partir del nÃºmero entero que se le otorga (En orden positivo).
 #include <stdio.h>
 
 int main(){
@@ -10,7 +10,7 @@ int main(){
 		scanf("%d",&Num);
 		
 		printf("El numero seleccionado es:%d\n", Num);
-		printf("Los 10 números siguientes son:\n"); 
+		printf("Los 10 nÃºmeros siguientes son:\n"); 
 		
 		for (int i = 1; i <= 10; i ++){
 			int NumSum = Num + i;
